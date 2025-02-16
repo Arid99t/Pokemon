@@ -1,4 +1,10 @@
 #pragma once
+#ifndef PROFESSOROAK_HPP
+#define PROFESSOROAK_HPP
+
+
+
+
 #include <iostream>
 using namespace std;
 
@@ -15,3 +21,6 @@ public:
 	void offerPokemonChoices(Player& player);
 	void explainMainQuest(Player& player);
 };
+
+
+#endif 

@@ -13,66 +13,108 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{d064bc02-9dab-46d6-85ae-87ead0afc422}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Battle">
+      <UniqueIdentifier>{22791c65-6f17-4ba4-a39e-7e346c1166e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Character">
+      <UniqueIdentifier>{e6f48d92-be4b-4fa3-95ce-05d01f9332ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Main">
+      <UniqueIdentifier>{bf467bb5-1629-4823-92d2-e6e34b37c85a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Pokemon">
+      <UniqueIdentifier>{4bf015dd-7f0c-4804-820a-bd21446b0eb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Utility">
+      <UniqueIdentifier>{9f68b1d8-fc26-4c20-a349-520317c330e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Character\Player">
+      <UniqueIdentifier>{e1fdfd4b-d9b8-40ec-a967-f292d4150864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{1d6aa1d6-36a3-4183-98d9-9e4cefac08ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Battle">
+      <UniqueIdentifier>{9efd2da9-d2c1-4e53-932c-fd1859a7dceb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Character">
+      <UniqueIdentifier>{c0eae50c-545b-4a5f-b7b0-21a444677e19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Main">
+      <UniqueIdentifier>{2b0e13da-275e-4b18-8990-8ccee376c864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Pokemon">
+      <UniqueIdentifier>{818045a9-6e24-4bf2-9cc5-8cd9a333baef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Utility">
+      <UniqueIdentifier>{75c6223d-39e3-4019-b051-a791a3c8118f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Character\Player">
+      <UniqueIdentifier>{cbd6688b-4781-4a39-b094-dad9c44b520f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Utility.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Player.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Pokemon.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ProfessorOak.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Game.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="BattleManager.cpp">
+      <Filter>src\Battle</Filter>
     </ClCompile>
     <ClCompile Include="WildEncounterManager.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>src\Battle</Filter>
     </ClCompile>
-    <ClCompile Include="BattleManager.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Game.cpp">
+      <Filter>src\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Pokemon.cpp">
+      <Filter>src\Pokemon</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>src\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>src\Character\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ProfessorOak.cpp">
+      <Filter>src\Character</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="PokemonType.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="PokemonChoice.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Utility.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Player.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Pokemon.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ProfessorOak.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Game.hpp">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="BattleState.hpp">
+      <Filter>include\Battle</Filter>
     </ClInclude>
     <ClInclude Include="WildEncounterManager.hpp">
-      <Filter>Header Files</Filter>
+      <Filter>include\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>include\Main</Filter>
     </ClInclude>
     <ClInclude Include="Grass.hpp">
-      <Filter>Header Files</Filter>
+      <Filter>include\Pokemon</Filter>
+    </ClInclude>
+    <ClInclude Include="Pokemon.hpp">
+      <Filter>include\Pokemon</Filter>
+    </ClInclude>
+    <ClInclude Include="PokemonType.hpp">
+      <Filter>include\Pokemon</Filter>
+    </ClInclude>
+    <ClInclude Include="PokemonChoice.hpp">
+      <Filter>include\Pokemon</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.hpp">
+      <Filter>include\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.hpp">
+      <Filter>include\Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="ProfessorOak.hpp">
+      <Filter>include\Character</Filter>
     </ClInclude>
     <ClInclude Include="BattleManager.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="BattleState.hpp">
-      <Filter>Header Files</Filter>
+      <Filter>include\Battle</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

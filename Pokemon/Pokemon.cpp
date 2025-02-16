@@ -1,6 +1,6 @@
-#include "Pokemon.hpp"
+#include "include/Pokemon/Pokemon.hpp"
 #include <iostream>
-#include "PokemonType.hpp"
+#include "include/Pokemon/PokemonType.hpp"
 using namespace std;
 
 // Default constructor

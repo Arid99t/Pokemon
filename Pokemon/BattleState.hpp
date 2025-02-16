@@ -1,6 +1,11 @@
 #pragma once
+#ifndef BATTLESTATE_HPP
+#define BATTLESTATE_HPP
+
 // BattleState.hpp
-#include "Pokemon.hpp"
+
+
+#include "include/Pokemon/Pokemon.hpp"
 
 struct BattleState {
     Pokemon* playerPokemon;  // Pointer to the player's Pokémon
@@ -8,3 +13,5 @@ struct BattleState {
     bool playerTurn;          // True if it's the player's turn, false otherwise
     bool battleOngoing;       // True if the battle is still ongoing
 };
+
+#endif 

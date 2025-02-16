@@ -1,4 +1,4 @@
-#include "WildEncounterManager.hpp"
+#include "include/Battle/WildEncounterManager.hpp"
 #include <vector>
 #include <cstdlib>
 #include <ctime>

@@ -1,4 +1,10 @@
-#include "Grass.hpp"
+#ifndef GAME_HPP
+#define GAME_HPP
+
+
+
+
+#include "include/Pokemon/Grass.hpp"
 
 class Player;
 
@@ -9,3 +15,5 @@ public:
 	Game();
 	void gameLoop(Player& player);
 };
+
+#endif // !GAME_HPP
