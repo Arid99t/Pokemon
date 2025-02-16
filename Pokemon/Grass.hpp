@@ -1,7 +1,7 @@
 #pragma once
 #include <string>
 #include <vector>
-#include "WildEncounterManager.hpp"
+#include "include/Battle/WildEncounterManager.hpp"
 using namespace std;
 
 

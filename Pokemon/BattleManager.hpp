@@ -1,8 +1,12 @@
 #pragma once
+#ifndef BATTLEMANAGER_HPP
+#define BATTLEMANAGER_HPP
+
 // BattleManager.hpp
 
-#include "BattleState.hpp"
-#include "Player.hpp"
+
+#include "include/Battle/BattleState.hpp"
+#include "include/Character/Player/Player.hpp"
 
 class BattleManager {
 public:
@@ -14,3 +18,6 @@ private:
     void handleBattleOutcome();
     void updateBattleState(); // Method to update the battle state after each turn
 };
+
+
+#endif

@@ -3,7 +3,7 @@
 #define WILDENCOUNTERMANAGER_HPP
 
 #include <vector>
-#include "Grass.hpp"
+#include "include/Pokemon/Grass.hpp"
 
 class WildEncounterManager {
 public:
