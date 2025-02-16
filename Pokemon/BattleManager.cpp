@@ -50,3 +50,12 @@ void BattleManager::handleBattleOutcome() {
         cout << "You defeated the wild " << battleState.wildPokemon.name << "!\n";
     }
 }
+void BattleManager::startBattle(Player& player, Pokemon& wildPokemon) {
+    battleState.playerPokemon = &player.chosenPokemon;
+    battleState.wildPokemon = &wildPokemon;
+    battleState.playerTurn = true;  // Player starts first
+    battleState.battleOngoing = true;
+
+    std::cout << "A wild " << wildPokemon.name << " appeared!\\n";
+    battle();
+}
