@@ -7,7 +7,10 @@ WildEncounterManager::WildEncounterManager() {
 	srand(time(0)); // Seed the random number generator
 }
 
-WildPokemon WildEncounterManager::getRandomPokemonFromGrass(const Grass& grass) {
-	int randomIndex = rand() % grass.wildPokemonList.size();
-	return grass.wildPokemonList[randomIndex];
+Pokemon WildEncounterManager::getRandomPokemonFromGrass(const Grass& grass) {
+    int randomIndex = rand() % grass.wildPokemonList.size();
+
+    Pokemon wildPokemon = grass.wildPokemonList[randomIndex];
+
+    return wildPokemon;
 }
