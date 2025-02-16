@@ -29,10 +29,10 @@ Pokemon::~Pokemon() {
 	// Destructor logic (if any) goes here
 }
 
-void Pokemon::attack(Pokemon &target) {
-	int damage = 10; // Fixed damage for simplicity
-	cout << name << " attacks " << target.name << " for " << damage << " damage!\\n";
-	target.takeDamage(damage); // Apply damage to the target Pokémon
+void Pokemon::attack(Pokemon& target) {
+	int damage = attackPower; // Use attack power for damage calculation
+	std::cout << name << " attacks " << target.name << " for " << damage << " damage!\n";
+	target.takeDamage(damage);
 }
 
 void Pokemon::takeDamage(int damage) {
@@ -43,4 +43,7 @@ void Pokemon::takeDamage(int damage) {
 }
 bool Pokemon::isFainted() const {
 	return health <= 0; // Return true if HP is 0 or less
+}
+void Pokemon::heal() {
+	health = maxHealth; // Restore health to full
 }

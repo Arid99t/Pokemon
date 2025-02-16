@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "D:\\C\u002B\u002B Intermediate\\Pokemon\\Pokemon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|D:\\C\u002B\u002B Intermediate\\Pokemon\\Pokemon\\WildEncounterManager.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:WildEncounterManager.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|D:\\C\u002B\u002B Intermediate\\Pokemon\\Pokemon\\Pokemon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:Pokemon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|D:\\C\u002B\u002B Intermediate\\Pokemon\\Pokemon\\Pokemon.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:Pokemon.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|D:\\C\u002B\u002B Intermediate\\Pokemon\\Pokemon\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|D:\\C\u002B\u002B Intermediate\\Pokemon\\Pokemon\\WildEncounterManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:WildEncounterManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|D:\\C\u002B\u002B Intermediate\\Pokemon\\Pokemon\\Grass.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:Grass.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|D:\\C\u002B\u002B Intermediate\\Pokemon\\Pokemon\\WildEncounterManager.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:WildEncounterManager.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|D:\\C\u002B\u002B Intermediate\\Pokemon\\Pokemon\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|D:\\C\u002B\u002B Intermediate\\Pokemon\\Pokemon\\Pokemon.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:Pokemon.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|D:\\C\u002B\u002B Intermediate\\Pokemon\\Pokemon\\Grass.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:Grass.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|D:\\C\u002B\u002B Intermediate\\Pokemon\\Pokemon\\Game.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -74,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,7 +82,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "WildEncounterManager.cpp",
               "DocumentMoniker": "D:\\C\u002B\u002B Intermediate\\Pokemon\\Pokemon\\WildEncounterManager.cpp",
               "RelativeDocumentMoniker": "WildEncounterManager.cpp",
@@ -90,21 +90,19 @@
               "RelativeToolTip": "WildEncounterManager.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-16T05:41:00.768Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-16T05:41:00.768Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "WildEncounterManager.hpp",
               "DocumentMoniker": "D:\\C\u002B\u002B Intermediate\\Pokemon\\Pokemon\\WildEncounterManager.hpp",
               "RelativeDocumentMoniker": "WildEncounterManager.hpp",
-              "ToolTip": "D:\\C\u002B\u002B Intermediate\\Pokemon\\Pokemon\\WildEncounterManager.hpp*",
-              "RelativeToolTip": "WildEncounterManager.hpp*",
+              "ToolTip": "D:\\C\u002B\u002B Intermediate\\Pokemon\\Pokemon\\WildEncounterManager.hpp",
+              "RelativeToolTip": "WildEncounterManager.hpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-16T03:58:22.548Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-16T03:58:22.548Z"
             },
             {
               "$type": "Document",
@@ -120,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Game.cpp",
               "DocumentMoniker": "D:\\C\u002B\u002B Intermediate\\Pokemon\\Pokemon\\Game.cpp",
               "RelativeDocumentMoniker": "Game.cpp",
@@ -204,33 +202,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Pokemon.cpp",
               "DocumentMoniker": "D:\\C\u002B\u002B Intermediate\\Pokemon\\Pokemon\\Pokemon.cpp",
               "RelativeDocumentMoniker": "Pokemon.cpp",
-              "ToolTip": "D:\\C\u002B\u002B Intermediate\\Pokemon\\Pokemon\\Pokemon.cpp*",
-              "RelativeToolTip": "Pokemon.cpp*",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACoAAAA2AAAAAAAAAA==",
+              "ToolTip": "D:\\C\u002B\u002B Intermediate\\Pokemon\\Pokemon\\Pokemon.cpp",
+              "RelativeToolTip": "Pokemon.cpp",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACIAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-15T17:54:56.515Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Pokemon.hpp",
               "DocumentMoniker": "D:\\C\u002B\u002B Intermediate\\Pokemon\\Pokemon\\Pokemon.hpp",
               "RelativeDocumentMoniker": "Pokemon.hpp",
-              "ToolTip": "D:\\C\u002B\u002B Intermediate\\Pokemon\\Pokemon\\Pokemon.hpp*",
-              "RelativeToolTip": "Pokemon.hpp*",
+              "ToolTip": "D:\\C\u002B\u002B Intermediate\\Pokemon\\Pokemon\\Pokemon.hpp",
+              "RelativeToolTip": "Pokemon.hpp",
               "ViewState": "AgIAABIAAAAAAAAAAAAAAB0AAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-15T17:54:04.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-15T17:54:04.384Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Grass.hpp",
               "DocumentMoniker": "D:\\C\u002B\u002B Intermediate\\Pokemon\\Pokemon\\Grass.hpp",
               "RelativeDocumentMoniker": "Grass.hpp",
