@@ -1,16 +1,23 @@
-#include "include/Battle/WildEncounterManager.hpp"
-#include <vector>
-#include <cstdlib>
-#include <ctime>
 
-WildEncounterManager::WildEncounterManager() {
-	srand(time(0)); // Seed the random number generator
-}
+#include "../../include/Battle/WildEncounterManager.hpp"
+#include "../../include/Pokemon/Grass.hpp"
+#include "../../include/Pokemon/Pokemon.hpp"
+#include <cstdlib> // For rand()
+#include <ctime>   // For time()
 
-Pokemon WildEncounterManager::getRandomPokemonFromGrass(const Grass& grass) {
-    int randomIndex = rand() % grass.wildPokemonList.size();
+namespace N_Battle
+{
+    using namespace N_Pokemon;
 
-    Pokemon wildPokemon = grass.wildPokemonList[randomIndex];
+    WildEncounterManager::WildEncounterManager() {
+        srand(time(0)); // Seed the random number generator
+    }
 
-    return wildPokemon;
+    Pokemon WildEncounterManager::getRandomPokemonFromGrass(const Grass& grass) {
+        int randomIndex = rand() % grass.wildPokemonList.size();
+
+        Pokemon wildPokemon = grass.wildPokemonList[randomIndex];
+
+        return wildPokemon;
+    }
 }
