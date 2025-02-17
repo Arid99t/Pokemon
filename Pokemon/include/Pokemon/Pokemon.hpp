@@ -1,36 +1,25 @@
-#ifndef POKEMON_HPP
-#define POKEMON_HPP
-
+#pragma once
 #include <string>
-using namespace std;
 
-enum class PokemonType;
+namespace N_Pokemon {
 
-class Pokemon {
-public:
-    string name;
-    PokemonType type;
-    int health;
-    int maxHealth;
-    int attackPower;
+    enum class PokemonType;
 
-    // Default constructor
-    Pokemon();
+    class Pokemon {
+    public:
+        std::string name;
+        PokemonType type;
+        int health;
+        int maxHealth;
+        int attackPower;
 
-    // Parameterized constructor
-    Pokemon(string p_name, PokemonType p_type, int p_health);
+        Pokemon();
+        Pokemon(std::string p_name, PokemonType p_type, int p_health, int p_attackPower);
+        Pokemon(const Pokemon& other);
 
-    // Copy constructor
-    Pokemon(const Pokemon& other);
-
-    // Destructor
-    ~Pokemon();
-
-    void attack(Pokemon& target);
-    void takeDamage(int damage); // Method to reduce HP
-    bool isFainted() const; // Method to check if the Pokemon has fainted
-    void heal();
-};
-
-
-#endif
+        bool isFainted() const;
+        void heal();
+        void attack(Pokemon& target);
+        void takeDamage(int damage);
+    };
+}

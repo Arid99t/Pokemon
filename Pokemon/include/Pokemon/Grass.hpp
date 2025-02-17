@@ -1,24 +1,15 @@
 #pragma once
 #include <string>
 #include <vector>
-#include "WildEncounterManager.hpp"
-using namespace std;
 
+namespace N_Pokemon {
 
+    class Pokemon;
 
-struct Grass {
-	string environmentType;
-	vector<Pokemon> wildPokemonList;
-	int encounterRate;
-};
+    struct Grass {
+        std::string environmentType;  // Example: "Forest", "Cave", "Riverbank"
+        std::vector<Pokemon> wildPokemonList;  // List of wild Pokémon in this grass
+        int encounterRate;  // Likelihood of encountering a wild Pokémon, out of 100
+    };
 
-Grass forestGrass = {
-	"Forest",
-	{("Pidgey", PokemonType::NORMAL, 40), {"Caterpie", PokemonType::BUG, 35}},
-	70
-};
-Grass caveGrass = {
-	"Cave",
-	{{"Zubat", PokemonType::POISON, 30}, {"Geodude", PokemonType::ROCK, 50}},
-	80
-};
+}

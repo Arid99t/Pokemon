@@ -1,5 +1,13 @@
 D:\C++ Intermediate\Pokemon\Pokemon\main.cpp;D:\C++ Intermediate\Pokemon\Pokemon\Pokemon\x64\Debug\main.obj
-D:\C++ Intermediate\Pokemon\Pokemon\Player.cpp;D:\C++ Intermediate\Pokemon\Pokemon\Pokemon\x64\Debug\Player.obj
-D:\C++ Intermediate\Pokemon\Pokemon\Pokemon.cpp;D:\C++ Intermediate\Pokemon\Pokemon\Pokemon\x64\Debug\Pokemon.obj
-D:\C++ Intermediate\Pokemon\Pokemon\ProfessorOak.cpp;D:\C++ Intermediate\Pokemon\Pokemon\Pokemon\x64\Debug\ProfessorOak.obj
-D:\C++ Intermediate\Pokemon\Pokemon\Utility.cpp;D:\C++ Intermediate\Pokemon\Pokemon\Pokemon\x64\Debug\Utility.obj
+D:\C++ Intermediate\Pokemon\Pokemon\src\Battle\BattleManager.cpp;D:\C++ Intermediate\Pokemon\Pokemon\Pokemon\x64\Debug\BattleManager.obj
+D:\C++ Intermediate\Pokemon\Pokemon\src\Battle\WildEncounterManager.cpp;D:\C++ Intermediate\Pokemon\Pokemon\Pokemon\x64\Debug\WildEncounterManager.obj
+D:\C++ Intermediate\Pokemon\Pokemon\src\Character\Player\Player.cpp;D:\C++ Intermediate\Pokemon\Pokemon\Pokemon\x64\Debug\Player.obj
+D:\C++ Intermediate\Pokemon\Pokemon\src\Character\ProfessorOak.cpp;D:\C++ Intermediate\Pokemon\Pokemon\Pokemon\x64\Debug\ProfessorOak.obj
+D:\C++ Intermediate\Pokemon\Pokemon\src\Main\Game.cpp;D:\C++ Intermediate\Pokemon\Pokemon\Pokemon\x64\Debug\Game.obj
+D:\C++ Intermediate\Pokemon\Pokemon\src\Pokemon\Pokemon.cpp;D:\C++ Intermediate\Pokemon\Pokemon\Pokemon\x64\Debug\Pokemon.obj
+D:\C++ Intermediate\Pokemon\Pokemon\src\Pokemon\Pokemons\Caterpie.cpp;D:\C++ Intermediate\Pokemon\Pokemon\Pokemon\x64\Debug\Caterpie.obj
+D:\C++ Intermediate\Pokemon\Pokemon\src\Pokemon\Pokemons\Charmander.cpp;D:\C++ Intermediate\Pokemon\Pokemon\Pokemon\x64\Debug\Charmander.obj
+D:\C++ Intermediate\Pokemon\Pokemon\src\Pokemon\Pokemons\Pidgey.cpp;D:\C++ Intermediate\Pokemon\Pokemon\Pokemon\x64\Debug\Pidgey.obj
+D:\C++ Intermediate\Pokemon\Pokemon\src\Pokemon\Pokemons\Pikachu.cpp;D:\C++ Intermediate\Pokemon\Pokemon\Pokemon\x64\Debug\Pikachu.obj
+D:\C++ Intermediate\Pokemon\Pokemon\src\Pokemon\Pokemons\Zubat.cpp;D:\C++ Intermediate\Pokemon\Pokemon\Pokemon\x64\Debug\Zubat.obj
+D:\C++ Intermediate\Pokemon\Pokemon\src\Utility\Utility.cpp;D:\C++ Intermediate\Pokemon\Pokemon\Pokemon\x64\Debug\Utility.obj
