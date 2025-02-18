@@ -13,10 +13,144 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{d064bc02-9dab-46d6-85ae-87ead0afc422}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Battle">
+      <UniqueIdentifier>{22791c65-6f17-4ba4-a39e-7e346c1166e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Character">
+      <UniqueIdentifier>{e6f48d92-be4b-4fa3-95ce-05d01f9332ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Main">
+      <UniqueIdentifier>{bf467bb5-1629-4823-92d2-e6e34b37c85a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Pokemon">
+      <UniqueIdentifier>{4bf015dd-7f0c-4804-820a-bd21446b0eb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Utility">
+      <UniqueIdentifier>{9f68b1d8-fc26-4c20-a349-520317c330e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Character\Player">
+      <UniqueIdentifier>{e1fdfd4b-d9b8-40ec-a967-f292d4150864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{1d6aa1d6-36a3-4183-98d9-9e4cefac08ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Battle">
+      <UniqueIdentifier>{9efd2da9-d2c1-4e53-932c-fd1859a7dceb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Character">
+      <UniqueIdentifier>{c0eae50c-545b-4a5f-b7b0-21a444677e19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Main">
+      <UniqueIdentifier>{2b0e13da-275e-4b18-8990-8ccee376c864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Pokemon">
+      <UniqueIdentifier>{818045a9-6e24-4bf2-9cc5-8cd9a333baef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Utility">
+      <UniqueIdentifier>{75c6223d-39e3-4019-b051-a791a3c8118f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Character\Player">
+      <UniqueIdentifier>{cbd6688b-4781-4a39-b094-dad9c44b520f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Pokemon\Pokemons">
+      <UniqueIdentifier>{35dbd5f6-5d4a-4731-ae8f-f07fb9a05a5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Pokemon\Pokemons">
+      <UniqueIdentifier>{d523743b-5958-4e67-9c19-5e3ac5f7416b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\Battle\BattleManager.cpp">
+      <Filter>src\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Battle\WildEncounterManager.cpp">
+      <Filter>src\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Character\ProfessorOak.cpp">
+      <Filter>src\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Character\Player\Player.cpp">
+      <Filter>src\Character\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Main\Game.cpp">
+      <Filter>src\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pokemon\Pokemon.cpp">
+      <Filter>src\Pokemon</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utility\Utility.cpp">
+      <Filter>src\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pokemon\Pokemons\Caterpie.cpp">
+      <Filter>src\Pokemon\Pokemons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pokemon\Pokemons\Charmander.cpp">
+      <Filter>src\Pokemon\Pokemons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pokemon\Pokemons\Pidgey.cpp">
+      <Filter>src\Pokemon\Pokemons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pokemon\Pokemons\Pikachu.cpp">
+      <Filter>src\Pokemon\Pokemons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pokemon\Pokemons\Zubat.cpp">
+      <Filter>src\Pokemon\Pokemons</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Battle\BattleManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Battle\BattleState.hpp">
+      <Filter>include\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Battle\WildEncounterManager.hpp">
+      <Filter>include\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Character\Player\Player.hpp">
+      <Filter>include\Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Character\ProfessorOak.hpp">
+      <Filter>include\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Main\Game.hpp">
+      <Filter>include\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Pokemon\Grass.hpp">
+      <Filter>include\Pokemon</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Pokemon\Pokemon.hpp">
+      <Filter>include\Pokemon</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Pokemon\PokemonChoice.hpp">
+      <Filter>include\Pokemon</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Pokemon\PokemonType.hpp">
+      <Filter>include\Pokemon</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Utility\Utility.hpp">
+      <Filter>include\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Pokemon\Pokemons\Caterpie.hpp">
+      <Filter>include\Pokemon\Pokemons</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Pokemon\Pokemons\Charmander.hpp">
+      <Filter>include\Pokemon\Pokemons</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Pokemon\Pokemons\Pidgey.hpp">
+      <Filter>include\Pokemon\Pokemons</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Pokemon\Pokemons\Pikachu.hpp">
+      <Filter>include\Pokemon\Pokemons</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Pokemon\Pokemons\Zubat.hpp">
+      <Filter>include\Pokemon\Pokemons</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
