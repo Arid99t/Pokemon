@@ -5,7 +5,7 @@ namespace N_Pokemon {
     namespace N_Pokemons {
 
         class Zubat : public Pokemon {
-        public:
+        protected:
             Zubat();
             void supersonic(Pokemon& target);
         };
