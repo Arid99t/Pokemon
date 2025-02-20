@@ -8,10 +8,11 @@ namespace N_Character
 {
     using namespace std;
     using namespace N_Utility;
+    using namespace N_Player;
 
     ProfessorOak::ProfessorOak(string p_name) { name = p_name; }
 
-    void ProfessorOak::greetPlayer(Player& player) {
+    void ProfessorOak::greetPlayer(Player* player) {
 
         cout << name << ": Hello there! Welcome to the world of Pokemon!\n";
         Utility::waitForEnter();
@@ -21,11 +22,11 @@ namespace N_Character
         Utility::waitForEnter();
     }
 
-    void ProfessorOak::offerPokemonChoices(Player& player) {
+    void ProfessorOak::offerPokemonChoices(Player* player) {
 
         std::cout << name << ": First, tell me, what’s your name? \t [Please Enter Your Name]\n";
-        std::getline(std::cin, player.name);
-        std::cout << name << ": Ah, " << player.name << "! What a fantastic name!\n";
+        std::getline(std::cin, player->name);
+        std::cout << name << ": Ah, " << player->name << "! What a fantastic name!\n";
         Utility::waitForEnter();
         std::cout << name
             << ": You must be eager to start your adventure. But first, "
@@ -44,16 +45,16 @@ namespace N_Character
         cout << name << ": So, which one will it be? Enter the number of your choice: ";
         cin >> choice;
 
-        player.choosePokemon(choice);
+        player->choosePokemon(choice);
         Utility::waitForEnter();
     }
 
-    void ProfessorOak::explainMainQuest(Player& player) {
+    void ProfessorOak::explainMainQuest(Player* player) {
 
         // Clear the console
         Utility::clearConsole();
 
-        cout << "Professor Oak: " << player.name
+        cout << "Professor Oak: " << player->name
             << "!, I am about to explain you about your upcoming grand "
             "adventure.\n";
         Utility::waitForEnter();
@@ -66,11 +67,11 @@ namespace N_Character
         Utility::waitForEnter();
 
         cout << "\n"
-            << player.name
+            << player->name
             << ": Wait... that sounds a lot like every other Pokémon game "
             "out there...\n";
         Utility::waitForEnter();
-        cout << "Professor Oak: Shhh! Don't break the fourth wall, " << player.name
+        cout << "Professor Oak: Shhh! Don't break the fourth wall, " << player->name
             << "! This is serious business!\n";
         Utility::waitForEnter();
 
@@ -83,7 +84,7 @@ namespace N_Character
             "many Pokémon you can carry, so choose wisely!\n";
         Utility::waitForEnter();
 
-        cout << "\n" << player.name << ": Sounds like a walk in the park... right?\n";
+        cout << "\n" << player->name << ": Sounds like a walk in the park... right?\n";
         Utility::waitForEnter();
         cout << "Professor Oak: Hah! That’s what they all say! But beware, "
             "young Trainer, the path to victory is fraught with "
@@ -94,7 +95,7 @@ namespace N_Character
         cout << "\nProfessor Oak: So, what do you say? Are you ready to "
             "become the next Pokémon Champion?\n";
         Utility::waitForEnter();
-        cout << "\n" << player.name << ": Ready as I’ll ever be, Professor!\n";
+        cout << "\n" << player->name << ": Ready as I’ll ever be, Professor!\n";
         Utility::waitForEnter();
 
         cout << "\nProfessor Oak: That’s the spirit! Now, your journey begins...\n";
