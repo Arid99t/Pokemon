@@ -6,7 +6,7 @@ namespace N_Pokemon {
         class Pidgey : public Pokemon {
         protected:
             Pidgey();
-            void wingAttack(Pokemon& target);
+            void wingAttack(Pokemon* target);
         };
 
     }

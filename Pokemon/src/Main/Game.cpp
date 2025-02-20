@@ -13,34 +13,30 @@ namespace N_Main
 {
     using namespace std;
     using namespace N_Utility;
-    //using namespace N_Pokemon;
+    using namespace N_Pokemon;
     using namespace N_Pokemon::N_Pokemons;
     using namespace N_Battle;
     using namespace N_Character::N_Player;
 
     Game::Game() {
         // Create a sample grass environment with actual Pokemon objects
-        forestGrass = { "Forest",
-                       {N_Pokemon::Pokemon("Pidgey", PokemonType::NORMAL, 40, 7),
-                        N_Pokemon::Pokemon("Caterpie", PokemonType::BUG, 35, 5),
-                        N_Pokemon::Pokemon("Zubat", PokemonType::POISON, 30, 8)},
-                       70 };
+        forestGrass = { "Forest", {new Pidgey(), new Caterpie(), new Zubat()}, 70 };
     }
 
-    void Game::gameLoop(N_Character::N_Player::Player& player) {
+    void Game::gameLoop(Player* player) {
 
         int choice;
         bool keepPlaying = true;
-        BattleManager battleManager;
-        WildEncounterManager encounterManager;
-        N_Pokemon::Pokemon wildPokemon;
+        BattleManager* battleManager = new BattleManager();
+        WildEncounterManager* encounterManager = new WildEncounterManager();
+        N_Pokemon::Pokemon* wildPokemon = new N_Pokemon::Pokemon();
 
         while (keepPlaying) {
             // Clear console before showing options
-            N_Utility::Utility::clearConsole();
+            Utility::clearConsole();
 
             // Display options to the player
-            cout << "\nWhat would you like to do next, " << player.name << "?\n";
+            cout << "\nWhat would you like to do next, " << player->name << "?\n";
             cout << "1. Battle Wild Pokémon\n";
             cout << "2. Visit PokeCenter\n";
             cout << "3. Challenge Gyms\n";
@@ -49,13 +45,13 @@ namespace N_Main
             cout << "Enter your choice: ";
             cin >> choice;
 
-            N_Utility::Utility::clearInputBuffer(); // Clear the input buffer
+            Utility::clearInputBuffer(); // Clear the input buffer
 
             // Process the player's choice and display the corresponding message
             switch (choice) {
             case 1: {
-                wildPokemon = encounterManager.getRandomPokemonFromGrass(forestGrass);
-                battleManager.startBattle(player, wildPokemon);
+                wildPokemon = encounterManager->getRandomPokemonFromGrass(forestGrass);
+                battleManager->startBattle(player, wildPokemon);
                 break;
             }
             case 2: {
@@ -91,23 +87,27 @@ namespace N_Main
 
             // Wait for Enter key before the screen is cleared and the menu is shown
             // again
-            N_Utility::Utility::waitForEnter();
+            Utility::waitForEnter();
         }
 
-        cout << "Goodbye, " << player.name << "! Thanks for playing!\n";
+        cout << "Goodbye, " << player->name << "! Thanks for playing!\n";
+
+        delete(wildPokemon);
+        delete(encounterManager);
+        delete(battleManager);
     }
 
-    void Game::visitPokeCenter(Player& player) {
-        if (player.chosenPokemon.health == player.chosenPokemon.maxHealth) {
+    void Game::visitPokeCenter(Player* player) {
+        if (player->chosenPokemon->health == player->chosenPokemon->maxHealth) {
             std::cout << "Your Pokémon is already at full health!\n";
         }
         else {
             std::cout << "You head to the PokeCenter.\n";
             std::cout << "Healing your Pokémon...\n";
-            N_Utility::Utility::waitForEnter(); // Simulate a short pause for the
+            Utility::waitForEnter(); // Simulate a short pause for the
             // healing process
-            player.chosenPokemon.heal();        // Heal the player's Pokémon
-            std::cout << player.chosenPokemon.name << "'s health is fully restored!\n";
+            player->chosenPokemon->heal();        // Heal the player's Pokémon
+            std::cout << player->chosenPokemon->name << "'s health is fully restored!\n";
         }
     }
 }
