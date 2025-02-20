@@ -7,7 +7,8 @@ namespace N_Pokemon {
         class Charmander : public Pokemon {
         protected:
             Charmander();
-            void flameThrower(Pokemon* target);
+            void attack(Pokemon* target) override;
+            //void flameThrower(Pokemon* target);
         };
 
     }
