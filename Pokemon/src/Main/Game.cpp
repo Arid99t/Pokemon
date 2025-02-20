@@ -92,9 +92,13 @@ namespace N_Main
 
         cout << "Goodbye, " << player->name << "! Thanks for playing!\n";
 
-        delete(wildPokemon);
-        delete(encounterManager);
-        delete(battleManager);
+        Game::~Game() {
+            delete(wildPokemon);
+            delete(encounterManager);
+            delete(battleManager);
+        }
+        
+        
     }
 
     void Game::visitPokeCenter(Player* player) {
