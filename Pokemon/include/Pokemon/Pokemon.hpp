@@ -18,13 +18,13 @@ namespace N_Pokemon {
 
         Pokemon();
         Pokemon(string p_name, PokemonType p_type, int p_health, int p_attackPower);
-        Pokemon(const Pokemon& other);
+        Pokemon(const Pokemon* other);
         
 
         
         bool isFainted() const;
         void heal();
-        void attack(Pokemon& target);
+        virtual void attack(Pokemon* target);
         void takeDamage(int damage);
     };
 }
