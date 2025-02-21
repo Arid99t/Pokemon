@@ -4,13 +4,12 @@
     "\\Pokemon",
     "\\Pokemon\\include",
     "\\Pokemon\\include\\Battle",
+    "\\Pokemon\\include\\Character",
+    "\\Pokemon\\include\\Character\\Player",
+    "\\Pokemon\\include\\Main",
     "\\Pokemon\\include\\Pokemon",
-    "\\Pokemon\\include\\Pokemon\\Pokemons",
-    "\\Pokemon\\src",
-    "\\Pokemon\\src\\Pokemon",
-    "\\Pokemon\\src\\Pokemon\\Pokemons",
-    "\\Pokemon\\src\\Utility"
+    "\\Pokemon\\include\\Pokemon\\Pokemons"
   ],
-  "SelectedNode": "\\Pokemon\\include\\Pokemon\\Pokemons\\Charmander.hpp",
+  "SelectedNode": "\\Pokemon\\include\\Pokemon\\PokemonType.hpp",
   "PreviewInSolutionExplorer": true
 }

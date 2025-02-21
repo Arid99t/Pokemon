@@ -5,9 +5,9 @@ namespace N_Pokemon {
     namespace N_Pokemons {
 
         class Zubat : public Pokemon {
-        protected:
+        public:
             Zubat();
-            void supersonic(Pokemon* target);
+            void attack(Move selectedMove, Pokemon* target) override;
         };
 
     }
