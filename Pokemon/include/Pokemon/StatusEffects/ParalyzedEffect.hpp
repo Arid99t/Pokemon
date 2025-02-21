@@ -1,5 +1,5 @@
 #pragma once
-#include "../IStatusEffect.hpp"
+#include "../include/Pokemon/StatusEffects/IStatusEffect.hpp"
 
 namespace N_Pokemon
 {

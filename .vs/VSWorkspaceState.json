@@ -3,13 +3,14 @@
     "",
     "\\Pokemon",
     "\\Pokemon\\include",
-    "\\Pokemon\\include\\Character\\Player",
     "\\Pokemon\\include\\Pokemon",
     "\\Pokemon\\include\\Pokemon\\Pokemons",
+    "\\Pokemon\\include\\Pokemon\\StatusEffects",
     "\\Pokemon\\src",
     "\\Pokemon\\src\\Pokemon",
+    "\\Pokemon\\src\\Pokemon\\Pokemons",
     "\\Pokemon\\src\\Pokemon\\StatusEffects"
   ],
-  "SelectedNode": "\\Pokemon\\src\\Pokemon\\StatusEffects\\ParalyzedEffect.cpp",
+  "SelectedNode": "\\Pokemon\\src\\Pokemon\\Pokemons\\Pikachu.cpp",
   "PreviewInSolutionExplorer": true
 }
