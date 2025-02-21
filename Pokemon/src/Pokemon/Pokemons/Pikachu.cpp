@@ -2,12 +2,10 @@
 #include "../../../include/Pokemon/PokemonType.hpp"
 #include "../../../include/Pokemon/Move.hpp"
 #include <iostream>
-
 namespace N_Pokemon {
     namespace N_Pokemons {
 
         using namespace std;
-
         Pikachu::Pikachu()
             : Pokemon("Pikachu", PokemonType::ELECTRIC, 100, {
                 Move("THUNDER SHOCK", 20),
@@ -17,6 +15,7 @@ namespace N_Pokemon {
 
         void Pikachu::attack(Move selectedMove, Pokemon* target)
         {
+
             if (selectedMove.name == "THUNDER BOLT")
             {
                 // 80% chance to hit
@@ -30,7 +29,19 @@ namespace N_Pokemon {
             }
             else
                 Pokemon::attack(selectedMove, target);
+            if (selectedMove.name == "THUNDER SHOCK")
+
+            {
+
+                if (target->canApplyEffect())
+
+                    target->applyEffect(StatusEffectType::PARALYZED);
+
+            }
 
         }
+
     }
+
 }
+
