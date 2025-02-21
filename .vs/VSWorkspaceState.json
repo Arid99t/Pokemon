@@ -10,6 +10,6 @@
     "\\Pokemon\\include\\Pokemon",
     "\\Pokemon\\include\\Pokemon\\Pokemons"
   ],
-  "SelectedNode": "\\Pokemon\\include\\Pokemon\\PokemonType.hpp",
+  "SelectedNode": "\\Pokemon\\include\\IStatusEffect.hpp",
   "PreviewInSolutionExplorer": true
 }

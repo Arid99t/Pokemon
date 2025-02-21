@@ -142,8 +142,7 @@
               "RelativeToolTip": "include\\Pokemon\\Pokemons\\Charmander.hpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-16T23:39:32.969Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-16T23:39:32.969Z"
             },
             {
               "$type": "Document",
@@ -155,8 +154,7 @@
               "RelativeToolTip": "src\\Pokemon\\Pokemons\\Charmander.cpp",
               "ViewState": "AgIAAAMAAAAAAAAAAAAewBcAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-16T23:42:19.621Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-16T23:42:19.621Z"
             },
             {
               "$type": "Document",
@@ -166,7 +164,7 @@
               "RelativeDocumentMoniker": "src\\Pokemon\\Pokemons\\Pidgey.cpp",
               "ToolTip": "D:\\C\u002B\u002B Intermediate\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Pidgey.cpp",
               "RelativeToolTip": "src\\Pokemon\\Pokemons\\Pidgey.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-16T23:42:30.733Z",
               "EditorCaption": ""
@@ -217,8 +215,7 @@
               "RelativeToolTip": "src\\Main\\Game.cpp",
               "ViewState": "AgIAACAAAAAAAAAAAAAAAGMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-16T23:41:18.8Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-16T23:41:18.8Z"
             },
             {
               "$type": "Document",
