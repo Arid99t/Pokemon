@@ -1,155 +1,19 @@
 ﻿  main.cpp
   BattleManager.cpp
-D:\C++ Intermediate\Pokemon\Pokemon\src\Battle\BattleManager.cpp(18,41): error C2248: 'N_Pokemon::Pokemon::name': cannot access protected member declared in class 'N_Pokemon::Pokemon'
-      D:\C++ Intermediate\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(11,16):
-      see declaration of 'N_Pokemon::Pokemon::name'
-      D:\C++ Intermediate\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(9,11):
-      see declaration of 'N_Pokemon::Pokemon'
-  
-D:\C++ Intermediate\Pokemon\Pokemon\src\Battle\BattleManager.cpp(25,44): error C2664: 'void N_Pokemon::Pokemon::attack(N_Pokemon::Pokemon &)': cannot convert argument 1 from 'N_Pokemon::Pokemon *' to 'N_Pokemon::Pokemon &'
-      D:\C++ Intermediate\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(27,14):
-      see declaration of 'N_Pokemon::Pokemon::attack'
-      D:\C++ Intermediate\Pokemon\Pokemon\src\Battle\BattleManager.cpp(25,44):
-      while trying to match the argument list '(N_Pokemon::Pokemon *)'
-  
-D:\C++ Intermediate\Pokemon\Pokemon\src\Battle\BattleManager.cpp(28,42): error C2664: 'void N_Pokemon::Pokemon::attack(N_Pokemon::Pokemon &)': cannot convert argument 1 from 'N_Pokemon::Pokemon *' to 'N_Pokemon::Pokemon &'
-      D:\C++ Intermediate\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(27,14):
-      see declaration of 'N_Pokemon::Pokemon::attack'
-      D:\C++ Intermediate\Pokemon\Pokemon\src\Battle\BattleManager.cpp(28,42):
-      while trying to match the argument list '(N_Pokemon::Pokemon *)'
-  
-D:\C++ Intermediate\Pokemon\Pokemon\src\Battle\BattleManager.cpp(50,46): error C2248: 'N_Pokemon::Pokemon::name': cannot access protected member declared in class 'N_Pokemon::Pokemon'
-      D:\C++ Intermediate\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(11,16):
-      see declaration of 'N_Pokemon::Pokemon::name'
-      D:\C++ Intermediate\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(9,11):
-      see declaration of 'N_Pokemon::Pokemon'
-  
-D:\C++ Intermediate\Pokemon\Pokemon\src\Battle\BattleManager.cpp(54,72): error C2248: 'N_Pokemon::Pokemon::name': cannot access protected member declared in class 'N_Pokemon::Pokemon'
-      D:\C++ Intermediate\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(11,16):
-      see declaration of 'N_Pokemon::Pokemon::name'
-      D:\C++ Intermediate\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(9,11):
-      see declaration of 'N_Pokemon::Pokemon'
-  
+  WildEncounterManager.cpp
+D:\C++ Intermediate\Pokemon\Pokemon\src\Battle\WildEncounterManager.cpp(13,19): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   Player.cpp
-D:\C++ Intermediate\Pokemon\Pokemon\src\Character\Player\Player.cpp(38,44): error C2248: 'N_Pokemon::N_Pokemons::Pikachu::Pikachu': cannot access private member declared in class 'N_Pokemon::N_Pokemons::Pikachu'
-      D:\C++ Intermediate\Pokemon\Pokemon\include\Pokemon\Pokemons\Pikachu.hpp(8,13):
-      see declaration of 'N_Pokemon::N_Pokemons::Pikachu::Pikachu'
-      D:\C++ Intermediate\Pokemon\Pokemon\include\Pokemon\Pokemons\Pikachu.hpp(6,15):
-      see declaration of 'N_Pokemon::N_Pokemons::Pikachu'
-  
-D:\C++ Intermediate\Pokemon\Pokemon\src\Character\Player\Player.cpp(41,73): error C2248: 'N_Pokemon::Pokemon::name': cannot access protected member declared in class 'N_Pokemon::Pokemon'
-      D:\C++ Intermediate\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(11,16):
-      see declaration of 'N_Pokemon::Pokemon::name'
-      D:\C++ Intermediate\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(9,11):
-      see declaration of 'N_Pokemon::Pokemon'
-  
+D:\C++ Intermediate\Pokemon\Pokemon\src\Character\Player\Player.cpp(27,37): error C2061: syntax error: identifier 'Charmander'
+D:\C++ Intermediate\Pokemon\Pokemon\src\Character\Player\Player.cpp(30,37): error C2061: syntax error: identifier 'Bulbasaur'
+D:\C++ Intermediate\Pokemon\Pokemon\src\Character\Player\Player.cpp(33,37): error C2061: syntax error: identifier 'Squirtle'
   ProfessorOak.cpp
   Game.cpp
-D:\C++ Intermediate\Pokemon\Pokemon\src\Main\Game.cpp(23,46): error C2248: 'N_Pokemon::N_Pokemons::Pidgey::Pidgey': cannot access protected member declared in class 'N_Pokemon::N_Pokemons::Pidgey'
-      D:\C++ Intermediate\Pokemon\Pokemon\include\Pokemon\Pokemons\Pidgey.hpp(8,13):
-      see declaration of 'N_Pokemon::N_Pokemons::Pidgey::Pidgey'
-      D:\C++ Intermediate\Pokemon\Pokemon\include\Pokemon\Pokemons\Pidgey.hpp(6,15):
-      see declaration of 'N_Pokemon::N_Pokemons::Pidgey'
-  
-D:\C++ Intermediate\Pokemon\Pokemon\src\Main\Game.cpp(23,75): error C2248: 'N_Pokemon::N_Pokemons::Zubat::Zubat': cannot access protected member declared in class 'N_Pokemon::N_Pokemons::Zubat'
-      D:\C++ Intermediate\Pokemon\Pokemon\include\Pokemon\Pokemons\Zubat.hpp(9,13):
-      see declaration of 'N_Pokemon::N_Pokemons::Zubat::Zubat'
-      D:\C++ Intermediate\Pokemon\Pokemon\include\Pokemon\Pokemons\Zubat.hpp(7,15):
-      see declaration of 'N_Pokemon::N_Pokemons::Zubat'
-  
-D:\C++ Intermediate\Pokemon\Pokemon\src\Main\Game.cpp(101,34): error C2248: 'N_Pokemon::Pokemon::health': cannot access protected member declared in class 'N_Pokemon::Pokemon'
-      D:\C++ Intermediate\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(13,13):
-      see declaration of 'N_Pokemon::Pokemon::health'
-      D:\C++ Intermediate\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(9,11):
-      see declaration of 'N_Pokemon::Pokemon'
-  
-D:\C++ Intermediate\Pokemon\Pokemon\src\Main\Game.cpp(101,67): error C2248: 'N_Pokemon::Pokemon::maxHealth': cannot access protected member declared in class 'N_Pokemon::Pokemon'
-      D:\C++ Intermediate\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(14,13):
-      see declaration of 'N_Pokemon::Pokemon::maxHealth'
-      D:\C++ Intermediate\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(9,11):
-      see declaration of 'N_Pokemon::Pokemon'
-  
-D:\C++ Intermediate\Pokemon\Pokemon\src\Main\Game.cpp(110,47): error C2248: 'N_Pokemon::Pokemon::name': cannot access protected member declared in class 'N_Pokemon::Pokemon'
-      D:\C++ Intermediate\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(11,16):
-      see declaration of 'N_Pokemon::Pokemon::name'
-      D:\C++ Intermediate\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(9,11):
-      see declaration of 'N_Pokemon::Pokemon'
-  
   Pokemon.cpp
-D:\C++ Intermediate\Pokemon\Pokemon\src\Pokemon\Pokemon.cpp(27,14): error C2511: 'N_Pokemon::Pokemon::Pokemon(N_Pokemon::Pokemon *)': overloaded member function not found in 'N_Pokemon::Pokemon'
-      D:\C++ Intermediate\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(9,11):
-      see declaration of 'N_Pokemon::Pokemon'
-  
-D:\C++ Intermediate\Pokemon\Pokemon\src\Pokemon\Pokemon.cpp(28,9): error C2597: illegal reference to non-static member 'N_Pokemon::Pokemon::name'
-      D:\C++ Intermediate\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(11,16):
-      see declaration of 'N_Pokemon::Pokemon::name'
-  
-D:\C++ Intermediate\Pokemon\Pokemon\src\Pokemon\Pokemon.cpp(29,9): error C2597: illegal reference to non-static member 'N_Pokemon::Pokemon::type'
-      D:\C++ Intermediate\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(12,21):
-      see declaration of 'N_Pokemon::Pokemon::type'
-  
-D:\C++ Intermediate\Pokemon\Pokemon\src\Pokemon\Pokemon.cpp(30,9): error C2597: illegal reference to non-static member 'N_Pokemon::Pokemon::health'
-      D:\C++ Intermediate\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(13,13):
-      see declaration of 'N_Pokemon::Pokemon::health'
-  
-D:\C++ Intermediate\Pokemon\Pokemon\src\Pokemon\Pokemon.cpp(31,9): error C2597: illegal reference to non-static member 'N_Pokemon::Pokemon::maxHealth'
-      D:\C++ Intermediate\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(14,13):
-      see declaration of 'N_Pokemon::Pokemon::maxHealth'
-  
-D:\C++ Intermediate\Pokemon\Pokemon\src\Pokemon\Pokemon.cpp(32,9): error C2597: illegal reference to non-static member 'N_Pokemon::Pokemon::attackPower'
-      D:\C++ Intermediate\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(15,13):
-      see declaration of 'N_Pokemon::Pokemon::attackPower'
-  
-D:\C++ Intermediate\Pokemon\Pokemon\src\Pokemon\Pokemon.cpp(50,19): error C2511: 'void N_Pokemon::Pokemon::attack(N_Pokemon::Pokemon *)': overloaded member function not found in 'N_Pokemon::Pokemon'
-      D:\C++ Intermediate\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(9,11):
-      see declaration of 'N_Pokemon::Pokemon'
-  
-D:\C++ Intermediate\Pokemon\Pokemon\src\Pokemon\Pokemon.cpp(51,22): error C2597: illegal reference to non-static member 'N_Pokemon::Pokemon::name'
-      D:\C++ Intermediate\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(11,16):
-      see declaration of 'N_Pokemon::Pokemon::name'
-      D:\C++ Intermediate\Pokemon\Pokemon\src\Pokemon\Pokemon.cpp(51,22):
-      the template instantiation context (the oldest one first) is
-          D:\C++ Intermediate\Pokemon\Pokemon\src\Pokemon\Pokemon.cpp(51,14):
-          see reference to function template instantiation 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)' being compiled
-  
-D:\C++ Intermediate\Pokemon\Pokemon\src\Pokemon\Pokemon.cpp(53,28): error C2597: illegal reference to non-static member 'N_Pokemon::Pokemon::attackPower'
-      D:\C++ Intermediate\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(15,13):
-      see declaration of 'N_Pokemon::Pokemon::attackPower'
-  
   Caterpie.cpp
-D:\C++ Intermediate\Pokemon\Pokemon\src\Pokemon\Pokemons\Caterpie.cpp(14,59): error C2248: 'N_Pokemon::Pokemon::name': cannot access protected member declared in class 'N_Pokemon::Pokemon'
-      D:\C++ Intermediate\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(11,16):
-      see declaration of 'N_Pokemon::Pokemon::name'
-      D:\C++ Intermediate\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(9,11):
-      see declaration of 'N_Pokemon::Pokemon'
-  
   Charmander.cpp
-D:\C++ Intermediate\Pokemon\Pokemon\src\Pokemon\Pokemons\Charmander.cpp(12,64): error C2248: 'N_Pokemon::Pokemon::name': cannot access protected member declared in class 'N_Pokemon::Pokemon'
-      D:\C++ Intermediate\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(11,16):
-      see declaration of 'N_Pokemon::Pokemon::name'
-      D:\C++ Intermediate\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(9,11):
-      see declaration of 'N_Pokemon::Pokemon'
-  
   Pidgey.cpp
-D:\C++ Intermediate\Pokemon\Pokemon\src\Pokemon\Pokemons\Pidgey.cpp(12,62): error C2248: 'N_Pokemon::Pokemon::name': cannot access protected member declared in class 'N_Pokemon::Pokemon'
-      D:\C++ Intermediate\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(11,16):
-      see declaration of 'N_Pokemon::Pokemon::name'
-      D:\C++ Intermediate\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(9,11):
-      see declaration of 'N_Pokemon::Pokemon'
-  
   Pikachu.cpp
-D:\C++ Intermediate\Pokemon\Pokemon\src\Pokemon\Pokemons\Pikachu.cpp(13,64): error C2248: 'N_Pokemon::Pokemon::name': cannot access protected member declared in class 'N_Pokemon::Pokemon'
-      D:\C++ Intermediate\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(11,16):
-      see declaration of 'N_Pokemon::Pokemon::name'
-      D:\C++ Intermediate\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(9,11):
-      see declaration of 'N_Pokemon::Pokemon'
-  
   Zubat.cpp
-D:\C++ Intermediate\Pokemon\Pokemon\src\Pokemon\Pokemons\Zubat.cpp(13,61): error C2248: 'N_Pokemon::Pokemon::name': cannot access protected member declared in class 'N_Pokemon::Pokemon'
-      D:\C++ Intermediate\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(11,16):
-      see declaration of 'N_Pokemon::Pokemon::name'
-      D:\C++ Intermediate\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(9,11):
-      see declaration of 'N_Pokemon::Pokemon'
-  
+D:\C++ Intermediate\Pokemon\Pokemon\src\Pokemon\Pokemons\Zubat.cpp(25,52): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
   Utility.cpp
   Generating Code...
